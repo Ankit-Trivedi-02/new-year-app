@@ -77,34 +77,36 @@ Use ```bash CTRL+C ``` to stop the container if running interactively
 new-year-app/
 │
 ├─ client/
-│
-├─ public/
-│
-├─ src/
-│  ├─ components/
-│  │  ├─ Footer.jsx
-│  │  ├─ MorphingText.jsx
-│  │  ├─ Navbar.jsx
-│  │  ├─ Snowfall.jsx
-│  │  ├─ preview.jsx
-│  │  └─ selection.jsx
-│  ├─ context/
-│  │  └─ DataContext.jsx
-│  ├─ App.css
-│  ├─ App.jsx
-│  ├─ index.css
-│  └─ main.jsx
-│
-├─ .dockerignore
-├─ .gitignore
-├─ Dockerfile
-├─ README.md
-├─ eslint.config.js
-├─ index.html
-├─ package-lock.json
-├─ package.json
-├─ tailwind.config.js
-└─ vite.config.js
+│  │
+│  ├─ src/
+│  │  ├─ components/
+│  │  │  ├─ Footer.jsx
+│  │  │  ├─ MorphingText.jsx
+│  │  │  ├─ Navbar.jsx
+│  │  │  ├─ Snowfall.jsx
+│  │  │  ├─ preview.jsx
+│  │  │  └─ selection.jsx
+│  │  │
+│  │  ├─ context/
+│  │  │  └─ DataContext.jsx
+│  │  │
+│  │  ├─ App.css
+│  │  ├─ App.jsx
+│  │  ├─ index.css
+│  │  └─ main.jsx
+│  │
+│  ├─ index.html
+│  ├─ package.json
+│  ├─ package-lock.json
+│  ├─ vite.config.js
+│  ├─ tailwind.config.js
+│  ├─ eslint.config.js
+│  ├─ Dockerfile
+│  ├─ .gitignore
+│  ├─ .dockerignore
+│  └─ README.md
+
+
 ```
 
 
